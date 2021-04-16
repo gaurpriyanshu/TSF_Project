@@ -1,0 +1,47 @@
+#navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: 1.6;
+}
+#navigation{
+    flex-direction: column;
+}
+#home::before{
+    height: 270px;
+}
+#home{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 68px;
+}
+#home p{
+    font-size: 1rem;
+}
+#services{
+    flex-direction: column;
+}
+#services .box{
+}
+#client-section{
+
+}
+#contact{
+
+}
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    height:40px ;
+    width: 66px ;
+    /* padding: ; */
+}
+.h-primary{
+    font-size: 20px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}

@@ -1,0 +1,106 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    margin : 34px -6px;
+}
+#logo img{
+    margin: 20px 9px;
+    height: 200px;
+    width: 350px;
+}
+#navbar {
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+    align-items: center;
+    margin: -6px -9px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 185%;
+    width: auto;
+    z-index: -1;
+    opacity: 0.8;
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: rgb(75, 72, 72);
+    display: block;
+    padding:3px 22px ;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:0px  309px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background:url('background1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 101%;
+    width: 100%;
+    font-weight: bold;
+    z-index: -1;
+    padding: 15px 0px;
+    opacity: 0.6;
+}
+.h-primary{
+    margin-top: 15px;
+    color: rgb(51, 5, 94);
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    padding: 0px;
+    text-align: center;
+}
+.contactme{
+    font-size: 1.8rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    color: darkblue;
+}
+.primary{
+    font-size: 2.3rem;
+    font-family: 'Playfair Display', serif;
+    padding: 26px;
+    text-align: center;
+    color: rgb(46, 3, 85);
+    /* text-align: center; */
+}
+
+
+
+footer{
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}

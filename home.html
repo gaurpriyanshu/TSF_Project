@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bank of Sparks | bankofsparks.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media ="screen and (max-width: 1100px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="Image not found!">
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="services.html">Services</a></li>
+            <li class="item"><a href="member.html">New Member</a></li>
+            <li class="item"><a href="about.html">About Us</a></li>
+            <li class="item"><a href="index.php">Transfer Money</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to The Bank of Sparks</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum exercitationem accusamus ipsam sint eiu
+            s, doloribus deleniti reprehenderit ducimus nihil obcaecati quidem facilis eaque esse quod omnis alias! Aliquam molestias rem asperiores in maiores ratione, earum fuga deleniti, assumenda eligendi maxime illo, cum voluptate tempore quod?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex asperiores, placeat sequi magni explicabo exercitationem amet maxime ducimus corporis odio earum quo reprehenderit impedit aliquam unde hic! Consequatur, mollitia? Harum iste ipsam quae quam repudiandae facilis voluptatum labore eum? Rerum sunt aspernatur cupiditate aut sit temporibus maxime cum perferendis, veritatis dolorum expedita quidem corporis doloribus quae beatae, deserunt magni rem error. Doloremque alias, nam, perferendis exercitationem, numquam dolorum molestias vel asperiores eum nisi rem delectus itaque unde distinctio? Exercitationem, dolorum iure corrupti quae recusandae ea! Alias excepturi blanditiis repellendus voluptatum magnam laudantium voluptatem explicabo commodi vel! Voluptas ab tempore nulla!</p>   
+        <button class="btn" formaction="/TSF Project/contact.html">Contact Me Now</button>
+    </section>
+    <section class="services-conatiner">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/card.jpg" alt="Image not loaded!">
+                <h2 class="h-secondary centre">Card Services</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore tenetur accusantium rem suscipit officiis numquam obcaecati vitae corporis fugit deserunt quam temporibus ipsam illo consequuntur consequatur est qui cumque quae dolorum, eligendi dolorem explicabo! Libero repellat quasi cum obcaecati dolorum debitis iure voluptates non dolore!</p>
+            </div>
+            <div class="box">
+                <img src="/ATM.jpg" alt="Image not loaded!">
+                <h2 class="h-secondary centre">ATM Services</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore tenetur accusantium rem suscipit officiis numquam obcaecati vitae corporis fugit deserunt quam temporibus ipsam illo consequuntur consequatur est qui cumque quae dolorum, eligendi dolorem explicabo! Libero repellat quasi cum obcaecati dolorum debitis iure voluptates non dolore!</p>
+            </div>
+            <div class="box">
+                <img src="/loan.jpg" alt="Image not loaded!">
+                <h2 class="h-secondary centre">Loan Services</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore tenetur accusantium rem suscipit officiis numquam obcaecati vitae corporis fugit deserunt quam temporibus ipsam illo consequuntur consequatur est qui cumque quae dolorum, eligendi dolorem explicabo! Libero repellat quasi cum obcaecati dolorum debitis iure voluptates non dolore!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Partners</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="/hsbc.png" alt="Image not loaded!">
+            </div>
+            <div class="client-item">
+                <img src="/central bank.png" alt="Image not loaded!">
+            </div>
+            <div class="client-item">
+                <img src="/spain.png" alt="Image not loaded!">
+            </div>
+            <div class="client-item">
+                <img src="/apple.png" alt="Image not loaded!">
+            </div>
+            <div class="client-item">
+                <img src="/samsung.jpg" alt="Image not loaded!">
+            </div>
+            <div class="client-item">
+                <img src="/reliance.png" alt="Image not loaded!">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="backend.php">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text", name="name", id ="name" placeholder="Enter Your name">
+                </div>   
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="text", name="email", id ="email" placeholder="Enter Your Email">
+                </div>   
+                <div class="form-group">
+                    <label for="phone">Phone No.: </label>
+                    <input type="text", name="phone", id ="phone" placeholder="Enter Your Phone no.">
+                </div>   
+                <div class="form-group">
+                    <label for="message">Suggestions</label>
+                    <textarea name="message" id="message" cols="20" rows="8"></textarea>
+                </div>         
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            |copyright &copy; www.bankofsparks.com.All right reserved.|
+        </div>
+    </footer>
+</body>
+</html>
